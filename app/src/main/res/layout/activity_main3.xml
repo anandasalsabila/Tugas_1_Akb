@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main3Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@color/WhiteTwo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="25dp"
+            android:text="Nama Panggilan Kamu"
+            android:textStyle="bold"
+            android:textColor="@color/Black3"
+            android:fontFamily="@font/nunito_bold"
+            android:textSize="30sp"
+            android:textAlignment="center" />
+        <EditText
+            android:id="@+id/nm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="27dp"
+            android:fontFamily="@font/nunito_bold"
+            android:hint="Nama : Budi" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="25dp"
+            android:text="Umur Kamu"
+            android:textStyle="bold"
+            android:textColor="@color/Black3"
+            android:fontFamily="@font/nunito_bold"
+            android:textSize="30sp"
+            android:textAlignment="center"/>
+        <EditText
+            android:id="@+id/um"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="27dp"
+            android:fontFamily="@font/nunito_bold"
+            android:hint="Contoh : 12" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/WhiteThree"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="65dp"
+        android:background="@drawable/bg_btn_sunyellow"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Selanjutnya"
+        android:textAllCaps="false"
+        android:textColor="@color/Black3"
+        android:textSize="15sp"
+        android:onClick="Selanjutnya"/>
+    </LinearLayout>
+
+</LinearLayout>

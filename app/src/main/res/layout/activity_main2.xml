@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@color/WhiteTwo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="25dp"
+            android:text="Kode Keluarga"
+            android:textStyle="bold"
+            android:textColor="@color/Black3"
+            android:fontFamily="@font/nunito_bold"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="25dp"
+            android:text="Ketikkan kode keluarga yang ayah bunda \nmiliki"
+            android:fontFamily="@font/rubik_regular"
+            android:textColor="@color/Black3"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/kd"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="65dp"
+            android:background="@drawable/kode"
+            android:fontFamily="@font/nunito_bold"
+            android:hint="Masukkan Kode Keluarga"
+            android:maxLength="8"
+            android:textAllCaps="true"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="Dengan menekan tombol masuk berarti anda menyetujui"
+            android:fontFamily="@font/rubik_regular"
+            android:textColor="@color/Black3"
+            android:textSize="13sp"/>
+        <TextView
+            android:id="@+id/kttn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center"
+            android:textColor="@color/Black3"
+            android:text="Ketentuan Pengguna dan Kebijakan Data kami"
+            android:fontFamily="@font/rubik_regular"
+            android:textSize="13sp"/>
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="65dp"
+            android:background="@drawable/bg_btn_sunyellow"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Masuk"
+            android:textAllCaps="false"
+            android:textColor="@color/Black3"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:onClick="Kd"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Belum punya kode keluarga?"
+            android:textSize="18sp"/>
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/bg_btn_blue"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Masuk"
+            android:textAllCaps="false"
+            android:textColor="@color/Black3"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
